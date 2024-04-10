@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4" data-theme="cupcake">
       <h1 className="text-4xl font-bold mb-4">Todo App</h1>
       <div className="flex mb-4">
         <input type="text" placeholder="Enter a todo" className="input input-bordered flex-grow mr-2" value={inputValue} onChange={handleInputChange} />
